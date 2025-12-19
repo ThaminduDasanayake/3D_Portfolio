@@ -49,6 +49,10 @@ const logoIconsList = [
         name: "Java",
     },
     {
+        imgPath: "/images/logos/swift.png",
+        name: "Swift",
+    },
+    {
         imgPath: "/images/logos/javascript.png",
         name: "JavaScript",
     },
@@ -71,10 +75,6 @@ const logoIconsList = [
     {
         imgPath: "/images/logos/tailwind-css.png",
         name: "Tailwind CSS",
-    },
-    {
-        imgPath: "/images/logos/swift.png",
-        name: "Swift",
     },
     {
         imgPath: "/images/logos/mongodb.png",
