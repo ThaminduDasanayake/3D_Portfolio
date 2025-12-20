@@ -1,6 +1,6 @@
 import {words} from "../constants/index.js";
 import Button from "../components/Button.jsx";
-import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+import HeroExperience from "../components/models/hero_models/HeroExperience.jsx";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
@@ -62,7 +62,7 @@ const Hero = () => {
                 </header>
 
                 <figure>
-                    <div className="hero-3d-layout">
+                    <div className="hero-3d-layout cursor-grab">
                         <HeroExperience/>
                     </div>
                 </figure>
