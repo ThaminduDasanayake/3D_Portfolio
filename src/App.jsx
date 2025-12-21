@@ -5,6 +5,7 @@ import LogoShowcase from "./sections/LogoShowcase.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
 import TechStack from "./sections/TechStack.jsx";
 import Contact from "./sections/Contact.jsx";
+import Footer from "./sections/Footer.jsx";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <FeatureCards/>
             <TechStack/>
             <Contact/>
+            <Footer/>
         </>
     );
 };
